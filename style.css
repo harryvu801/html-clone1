@@ -1,0 +1,88 @@
+.main-header {
+   height: 80px;
+   width:100%;
+   position: fixed;
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+}
+
+.left-header {
+   padding-top:15px;
+   padding-bottom: 10px;
+   display: flex;
+   align-items: flex-end;
+   font-family: Arial black;
+   color: white;
+   font-size: 13px;
+   display: flex;
+}
+
+.logo {
+   background-image: url('imgs/logo.png');
+   height:43px;
+   width:64px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-left:53px;
+   margin-right: 18px;
+   margin-bottom: 8px;
+}
+
+.header-menu {
+   padding: 6px 13px;
+}
+
+.header-menu-middle {
+   padding: 6px 13px;
+   border-right: 1px solid gray;
+   border-left: 1px solid gray;
+}
+
+.right-header {
+   font-family: arial;
+   color:gray;
+   font-size: 11px;
+   padding-top:9px;
+   padding-right: 53px;
+}
+
+.top-right-header {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.newsletter {
+   color: white;
+   border-left:1px solid gray;
+   padding:1px 10px;
+}
+
+.bottom-right-header {
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+
+.search-bar {
+   font-size: 13px;
+   height: 33px;
+   width: 140px;
+   margin-top:17px;
+   background: url('imgs/search.png')no-repeat;
+   background-size: 16px;
+   background-color: white;
+   background-position: 4% 50%;
+   padding-left: 30px;
+}
+
+.shopping-logo {
+   background-image: url('imgs/shopping-logo.png');
+   height: 20px;
+   width: 20px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-left: 12px;
+   margin-bottom: 5px;
+}
