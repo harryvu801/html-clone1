@@ -88,8 +88,8 @@
 }
 
 .title-section {
-  height: 700px;
-  position: relative;
+  height: 500px;
+  background-image: url("imgs/eqt.jpg");
   margin-top: 80px;
   font-family: arial black;
   color: black;
@@ -99,18 +99,19 @@
 
 .title-words {
   width: 290px;
-  margin-left: 107px;
-  margin-top: 270px;
+  margin-left: 200px;
+  margin-top: 75px;
 
 }
 
 .title {
   font-size: 50px;
+  letter-spacing: 0px;
 }
 
 .title-description {
   line-height: 1.3;
-  margin: 10px 0px 20px 0px;
+  margin: 10px 0px 35px 0px;
   font-family: helvetica;
 }
 
@@ -121,20 +122,16 @@
 
 .shop-buttons {
   height: 47px;
-  /*background-color: rgba(0,0,0,0.7);*/
-  background-color: #000;
+  background-color: rgba(0,0,0,0.7);
+  /*background-color: #000;*/
   margin: 8px 0px;
   text-decoration: none;
   color: white;
   padding: 15px;
   display: block;
   font-size: 16px;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
   transition: opacity .2s ease-in-out;
-  /*background: url('imgs/shop-icon.svg');
-  background-repeat: no-repeat;
-  background-size: 20px;*/
-
 }
 .shop-buttons:hover {
   opacity: 1;
@@ -149,4 +146,100 @@
 
 .kids {
   width:140px;
+}
+
+.featured {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.featured-block {
+  border: solid white 1px;
+  margin: 5px;
+}
+
+
+.featured-item {
+  height: 40px;
+  font-family: arial black;
+  color: black;
+  letter-spacing: -1px;
+  font-size: 18px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.featured-link {
+  font-family: Arial;
+  color: darkturquoise;
+  font-size: 16px;
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  font-family: arial black;
+  color: black;
+  font-size: 13px;
+  letter-spacing: -1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content-title {
+  height: 65px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: arial;
+  font-size: 29px;
+  letter-spacing: 3px;
+}
+
+.trending-items {
+  height: 70px;
+  width: 230px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.trending-blocks {
+  margin: 5px;
+}
+
+.trending-wrapper {
+  margin: 20px 0px 0px 0px;
+  width: 100%
+}
+
+.links-header {
+  margin-top:150px;
+  height: 85px;
+  font-family: arial black;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  letter-spacing:-1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promotion {
+  margin-right: 200px;
+}
+
+.e-mail {
+  height: 40px;
+  width: 350px;
+  padding-left: 10px;
+  font-size: 13px;
+
 }
