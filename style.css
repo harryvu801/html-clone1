@@ -243,3 +243,77 @@
   font-size: 13px;
 
 }
+
+.links-content {
+  height: 420px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.link-block {
+  width: 180px;
+  margin: 40px 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+}
+
+.link-titles {
+  margin-bottom: 30px;
+  width: 100%;
+  font-family: arial black;
+  font-size: 18px;
+}
+
+.all-links {
+  font-family: arial;
+  height:25px;
+  width: 100%;
+  font-style: arial;
+  font-size: 13px;
+}
+
+.payments {
+  margin-left: 150px;
+  margin-bottom: 30px;
+  font-family: arial;
+  height:25px;
+  font-size: 13px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.footer {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0,0,0,.78);
+  align-items: center;
+}
+
+.left-footer {
+  margin-left: 150px;
+  background-color: rgba(0,0,0,0);
+  font-family: arial;
+  font-size: 11px;
+  color: white;
+}
+
+.right-footer {
+  margin-right: 150px;
+  background-color: rgba(0,0,0,0);
+  font-family: arial;
+  font-size: 11px;
+  color: white;
+  display: flex;
+}
+
+.footer-links {
+  margin: 0px 10px 0px 0px;
+  padding: 0px 10px;
+  border-left-style: solid;
+  border-width: 1px;
+}
